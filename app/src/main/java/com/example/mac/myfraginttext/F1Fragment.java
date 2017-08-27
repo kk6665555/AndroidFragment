@@ -30,6 +30,7 @@ public class F1Fragment extends Fragment {
         super.onCreate(savedInstanceState);
             Log.i("test","F1Fragment:onCreate()");
         mainActivity = (MainActivity) getActivity();
+        mainTitle = mainActivity.getMainTitle();
     }
 
     @Override
@@ -49,14 +50,14 @@ public class F1Fragment extends Fragment {
                     f1test1();
                 }
             });
-            View f1test2 =mainview.findViewById(R.id.f1test2);
+            View f1test2 = mainview.findViewById(R.id.f1test2);
             f1test2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     f1test2();
                 }
             });
-            View f1test3 =mainview.findViewById(R.id.f1test3);
+            View f1test3 = mainview.findViewById(R.id.f1test3);
             f1test2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

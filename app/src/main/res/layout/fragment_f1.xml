@@ -18,13 +18,13 @@
         android:id="@+id/f1test2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="f1text2"
+        android:text="f1test2"
         />
     <Button
         android:id="@+id/f1test3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="f1text3"
+        android:text="f1test3"
         />
 
 </LinearLayout>
