@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f1_fragment"
+        />
+    <Button
+        android:id="@+id/f1test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f1text1"
+        android:onClick="f1test1"/>
+    <Button
+        android:id="@+id/f1test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f1text2"
+        />
+    <Button
+        android:id="@+id/f1test3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f1text3"
+        />
+
+</LinearLayout>
